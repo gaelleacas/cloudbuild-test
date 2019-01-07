@@ -8,7 +8,7 @@ const app = express();
 app.get('/', (req, res) => {
   res
     .status(200)
-    .send('Hello, World from Khaly DeThylis !')
+    .send('Hello World from Khaly DeThylis !')
     .end();
 });
 
